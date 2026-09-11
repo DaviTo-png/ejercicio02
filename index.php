@@ -9,6 +9,8 @@ Nota 3: <input name="n3"><br>
 Nota 4: <input name="n4"><br>
 <button>Calcular</button>
 </form>
+
+
 <?php
 if($_POST){
 $notas=[$_POST["n1"],$_POST["n2"],$_POST["n3"],$_POST["n4"]];
